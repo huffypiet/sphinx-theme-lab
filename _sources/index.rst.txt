@@ -1,20 +1,12 @@
-.. brown-theme documentation master file, created by
-   sphinx-quickstart on Thu Apr 25 19:40:33 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Brown Theme
+=============================================
 
-Welcome to brown-theme's documentation!
-=======================================
+To create an additional level of nesting in the sidebar, construct a
+nested ``toctree``:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    docs/getting-started/index
+    docs/getting-started/installation
+    docs/getting-started/usage
+    docs/customization/index

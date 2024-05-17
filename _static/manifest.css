@@ -1,0 +1,7 @@
+body,html{
+	background: white;
+}
+
+.bd-sidebar > h3{
+	display:none;
+}
